@@ -15,11 +15,11 @@ class Product:
         return cls(kwargs["name"], kwargs["description"], kwargs["price"], kwargs["quantity"])
 
     @property
-    def info_by_price(self):
+    def price(self):
         return self.__price
 
-    @info_by_price.setter
-    def info_by_price(self, new_price: float):
+    @price.setter
+    def price(self, new_price: float):
         if new_price <= 0:
             print("Цена не должна быть нулевая или отрицательная")
 
@@ -27,4 +27,4 @@ class Product:
             self.__price = new_price
 
 
-print(Product.new_product({"name":"Iphone 15","description": "512GB, Gray space","price": 210000.0,"quantity": 8}))
+
