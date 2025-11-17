@@ -5,8 +5,12 @@ from src.class_by_product import Product
 
 
 @pytest.fixture
-def Product_object():
+def product_object():
     return Product("Iphone 15", "512GB, Gray space", 210000.0, 8)
+
+@pytest.fixture
+def product_object_two():
+    return Product("Xiaomi Redmi Note 11", "1024GB, Синий", 31000.0, 14)
 
 @pytest.fixture
 def product_dict():
