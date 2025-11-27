@@ -16,11 +16,9 @@ def test_Product(product_object, product_dict):
     assert product_two.description == "256GB, Серый цвет, 200MP камера"
     assert product_two.price == 180000.0
     assert product_two.quantity == 5
+
+
 def test_by_function_add(product_object, product_object_two):
     product = product_object
     product2 = product_object_two
     assert product + product2 == 2114000.0
-
-
-
-

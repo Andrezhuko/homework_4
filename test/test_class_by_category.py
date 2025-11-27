@@ -9,8 +9,10 @@ def test_Category(product_object):
         [product1],
     )
     assert category1.name == "Смартфоны"
-    assert (category1.description == "Смартфоны, как средство не только коммуникации, "
-                                     "но и получения дополнительных функций для удобства жизни")
+    assert (
+        category1.description == "Смартфоны, как средство не только коммуникации, "
+        "но и получения дополнительных функций для удобства жизни"
+    )
     assert category1.return_product == [product1]
     assert category1.products == "Iphone 15, 210000.0 руб. Остаток: 8шт.\n"
 

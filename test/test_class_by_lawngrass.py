@@ -1,5 +1,3 @@
-from src.class_by_LawnGrass import LawnGrass
-
 def test_Lawngrass(grass_one, grass_two):
     grass1 = grass_one
     grass2 = grass_two

@@ -1,5 +1,3 @@
-from src.class_by_smartphone import Smartphone
-
 def test_smartphone(smartphone_one, smartphone_two):
     smartphone1 = smartphone_one
     smartphone2 = smartphone_two
