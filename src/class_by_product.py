@@ -1,14 +1,13 @@
-class Product:
-    name: str
-    description: str
-    price: int
-    quantity: int
+from src.base_product import BaseProduct
+from src.product_mixin import Mixin_product
 
+class Product(Mixin_product, BaseProduct):
     def __init__(self, name, description, price, quantity):
         self.name = name
         self.description = description
         self.__price = price
         self.quantity = quantity
+        super().__init__()
 
     def __str__(self):
         return f"{self.name}, {self.__price} руб. Остаток: {self.quantity} шт."
@@ -36,3 +35,4 @@ class Product:
 
         else:
             self.__price = new_price
+

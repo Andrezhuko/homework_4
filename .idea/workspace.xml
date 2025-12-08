@@ -7,6 +7,16 @@
     <list default="true" id="c233d8d1-7dc7-4609-88a1-fdad04cc84d0" name="Changes" comment="add new test, add and str">
       <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/class_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/class_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/function_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/function_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/status.json" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/status.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_class_by_LawnGrass_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_class_by_LawnGrass_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_class_by_category_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_class_by_category_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_class_by_product_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_class_by_product_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_class_by_smartphone_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_class_by_smartphone_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class_by_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/class_by_product.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +58,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature__1__1&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature__1__1__1&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/L340/PycharmProjects/PythonProject7&quot;
   }
