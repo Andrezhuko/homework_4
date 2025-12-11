@@ -41,6 +41,14 @@ def category_one():
         ],
     )
 
+@pytest.fixture
+def category_two():
+    return Category(
+        "Смартфоны",
+        "Смартфоны, как средство не только коммуникации, но и получения дополнительных функций для удобства жизни",
+        [],
+    )
+
 
 @pytest.fixture
 def smartphone_one():

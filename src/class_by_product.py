@@ -6,6 +6,8 @@ class Product(Mixin_product, BaseProduct):
         self.name = name
         self.description = description
         self.__price = price
+        if quantity <= 0:
+            raise ValueError("товар с нулевым количеством не может быть добавлен")
         self.quantity = quantity
         super().__init__()
 

@@ -1,3 +1,5 @@
+import pytest
+
 from src.class_by_product import Product
 
 
@@ -22,3 +24,7 @@ def test_by_function_add(product_object, product_object_two):
     product = product_object
     product2 = product_object_two
     assert product + product2 == 2114000.0
+
+def test_by_zero_quantity(product_object_two):
+    with pytest.raises(ValueError):
+        product = Product("Iphone 15", "512GB, Gray space", 210000.0, 0)

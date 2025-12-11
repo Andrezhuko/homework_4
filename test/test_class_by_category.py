@@ -21,3 +21,9 @@ def test_add_product(product_object, category_one):
     assert len(category_one.return_product) == 1
     category_one.add_product(product_object)
     assert len(category_one.return_product) == 2
+
+def test_middle_price(category_one, category_two):
+    cat1 = category_one
+    cat2 = category_two
+    assert cat1.middle_price() == 180000
+    assert cat2.middle_price() == 0

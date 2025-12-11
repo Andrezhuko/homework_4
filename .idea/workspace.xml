@@ -155,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_class_by_product.test_by_function_add" />
+        <item itemvalue="Python tests.Python tests for test_classes_by_store.test_Category" />
         <item itemvalue="Python tests.Python tests for test_class_by_product.test_Product" />
+        <item itemvalue="Python tests.Python tests for test_class_by_product.test_by_function_add" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.class_by_product" />
-        <item itemvalue="Python tests.Python tests for test_classes_by_store.test_Category" />
       </list>
     </recent_temporary>
   </component>
